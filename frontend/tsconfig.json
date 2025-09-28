@@ -1,7 +1,10 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  }
 }
